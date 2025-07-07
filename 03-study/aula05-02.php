@@ -9,6 +9,9 @@
 <body>
 <div>
     <?php
+        // tem que colocar lá na url do navegador como: ? a=10&b=30
+        // http://localhost/meusProjetos/aulas-guanabara/aula05-02.php?a=10&b=30
+
         $n1 = $_GET["a"];
         $n2 = $_GET["b"];
         echo "<h2>Valores recebidos: $n1 e $n2</h2>";

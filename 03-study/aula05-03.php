@@ -16,6 +16,9 @@
 <body>
 <div>
     <?php
+        // tem que colocar lá na url do navegador como: ? x=10&y=30
+        // http://localhost/meusProjetos/aulas-guanabara/aula05-03.php?x=10&y=30
+
         $v1 = $_GET["x"];
         $v2 = $_GET["y"];
         echo "<h2>Valores recebidos: $v1 e $v2</h2>";
